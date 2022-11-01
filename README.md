@@ -1,8 +1,8 @@
-# OctoProfile
+# My Github Profile
 
 A nicer look at your GitHub Profile! With charts!
 
-![demo](https://raw.githubusercontent.com/bchiang7/octoprofile/master/static/og.png)
+![demo](https://raw.githubusercontent.com/bchiang7/octoprofile/master/static/og.jpg)
 
 Built with:
 

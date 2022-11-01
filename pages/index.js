@@ -40,7 +40,7 @@ const StyledContainer = styled.div`
       padding: 1rem;
       color: ${colors.lightblue};
       font-family: ${fonts.mono};
-      font-size: 2rem;
+      font-size: 1rem;
       font-weight: 400;
       text-align: center;
     }
@@ -71,8 +71,8 @@ const Home = () => {
             });
           }}>
           <Octicon icon={MarkGithub} size="large" />
-          <label htmlFor="username">Find Your OctoProfile</label>
-          <input name="username" type="text" onChange={handleChange} />
+          <label htmlFor="username">Find Your Github</label>
+          <input name="username" type="text" onChange={handleChange} placeholder="Enter your github user name"/>
         </form>
       </StyledContainer>
     </main>

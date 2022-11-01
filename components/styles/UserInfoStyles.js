@@ -15,7 +15,7 @@ const UserInfoStyles = styled.div`
   .avatar {
     ${mixins.flexCenter};
     margin-bottom: 1.5rem;
-    border: 0.5rem solid ${colors.blue};
+    border: 0.5rem solid ${colors.green};
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -37,7 +37,7 @@ const UserInfoStyles = styled.div`
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     a {
-      color: ${colors.blue};
+      color: ${colors.green};
     }
   }
   h3 {
@@ -45,7 +45,7 @@ const UserInfoStyles = styled.div`
   }
 
   a {
-    color: ${colors.lightestBlue};
+    color: ${colors.green};
     &:hover,
     &:focus {
       text-decoration: underline;

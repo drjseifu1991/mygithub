@@ -80,13 +80,13 @@ const User = props => {
 
   return (
     <main>
-      {rateLimit && <RateLimit rateLimit={rateLimit} />}
+      {/* {rateLimit && <RateLimit rateLimit={rateLimit} />} */}
 
       {error && error.active ? (
         <Error error={error} />
       ) : (
         <>
-          <Head title={`${username ? `OctoProfile | ${username}` : 'OctoProfile'}`} />
+          <Head title={`${username ? `Github Profile | ${username}` : 'Github Profile'}`} />
 
           <Corner />
 
