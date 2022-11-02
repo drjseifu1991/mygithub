@@ -16,7 +16,7 @@ const DropdownStyles = styled.div`
     font-weight: 500;
     line-height: 1;
     text-align: left;
-    color: ${colors.blue};
+    color: ${colors.green};
     background-color: transparent;
     border: 1px solid rgba(0, 118, 255, 0.1);
     padding: 10px 7px;
@@ -24,7 +24,7 @@ const DropdownStyles = styled.div`
 
     &:hover,
     &:focus {
-      color: ${colors.blue};
+      color: ${colors.green};
       background: rgba(0, 118, 255, 0.1);
       border-color: rgba(0, 118, 255, 0.1);
     }
@@ -67,7 +67,7 @@ const DropdownStyles = styled.div`
       }
     }
     button {
-      color: ${colors.blue};
+      color: ${colors.green};
       background: rgba(0, 118, 255, 0.1);
       padding: 10px 7px;
       width: 100%;
