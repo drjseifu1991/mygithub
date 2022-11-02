@@ -12,6 +12,9 @@
     "start": "next start",
     "now-build": "next build"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged && lint-staged"
