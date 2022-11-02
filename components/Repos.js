@@ -46,7 +46,7 @@ const Repos = ({ repoData }) => {
   const sortTypes = ['stars', 'forks', 'size'];
 
   return (
-    <Section>
+    <Section dark>
       <ReposStyles>
         <header>
           <h2>Top Repos</h2>
