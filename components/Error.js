@@ -33,10 +33,10 @@ const ErrorStyles = styled.div`
 
 const Error = ({ error }) => (
   <ErrorStyles>
-    <Head title="OctoProfile" />
+    <Head title="MyGithub" />
     <Corner />
     <Octicon icon={MarkGithub} size="large" />
-    <h1>OctoProfile</h1>
+    <h1>My Github Profile</h1>
 
     {error && (
       <div>
@@ -52,7 +52,7 @@ const Error = ({ error }) => (
             ! Try again later.
           </p>
         ) : error.type === 404 ? (
-          <p>User not found!</p>
+          <p>There is no github account with this user name. Please try again!</p>
         ) : (
           <p>Oh no! Something went wrong. Try again later!</p>
         )}
