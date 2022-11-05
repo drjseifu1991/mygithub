@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "alias": "mygithub",
   "name": "mygithub",
   "builds": [{ "src": "package.json", "use": "@now/next" }]
