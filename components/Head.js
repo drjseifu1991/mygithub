@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const defaultTitle = 'MyGithub';
 const defaultDescription = 'A nicer look at your GitHub profile. With charts!';
 const defaultOGURL = 'https://drj-github.vercel.app/';
-const defaultOGImage = 'https://drj-github.vercel.app//static/og.png';
+const defaultOGImage = 'https://raw.githubusercontent.com/drjseifu1991/mygithub/master/static/og.jpg';
 
 const Head = props => (
   <NextHead>
