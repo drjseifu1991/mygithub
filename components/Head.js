@@ -10,8 +10,8 @@ const defaultOGImage = 'https://drj-github.vercel.app//static/og.png';
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>{props.title || defaultTitle}</title>
-    <meta name="description" content={props.description || defaultDescription} />
+    <title>{defaultTitle}</title>
+    <meta name="description" content={defaultDescription} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/static/favicons/favicon.ico" />
     <link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-touch-icon.png" />
@@ -21,16 +21,16 @@ const Head = props => (
     <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#1A1E22" />
     <meta name="msapplication-TileColor" content="#1A1E22" />
     <meta name="theme-color" content="#0070f3" />
-    <meta property="og:url" content={props.url || defaultOGURL} />
-    <meta property="og:title" content={props.title || defaultTitle} />
-    <meta property="og:description" content={props.description || defaultDescription} />
-    <meta name="twitter:site" content={props.url || defaultOGURL} />
+    <meta property="og:url" content={defaultOGURL} />
+    <meta property="og:title" content={defaultTitle} />
+    <meta property="og:description" content={defaultDescription} />
+    <meta name="twitter:site" content={defaultOGURL} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content={props.ogImage || defaultOGImage} />
-    <meta name="twitter:description" content={props.description || defaultDescription} />
+    <meta name="twitter:image" content={defaultOGImage} />
+    <meta name="twitter:description" content={defaultDescription} />
     <meta name="twitter:creator" content={'@seifudereje'} />
-    <meta name="twitter:title" content={props.title || defaultTitle} />
-    <meta property="og:image" content={props.ogImage || defaultOGImage} />
+    <meta name="twitter:title" content={defaultTitle} />
+    <meta property="og:image" content={defaultOGImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
   </NextHead>
